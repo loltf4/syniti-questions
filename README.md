@@ -17,9 +17,9 @@ Please clone or download this repo and use it for the exercises described below.
 Once completed you may either send us the URL to your git repo or a zip of
 the folder.
 
-We have four questions that we like to ask to get a sense of who you are, 
-followed by a coding question we use to understand your technical strengths. 
-You can write your responses to the first four questions directly in the README 
+We have four questions that we like to ask to get a sense of who you are,
+followed by a coding question we use to understand your technical strengths.
+You can write your responses to the first four questions directly in the README
 or as a separate file.
 
 In answering the code question, please submit code as if you intended to
@@ -30,7 +30,7 @@ only use critical libraries for common functionality, such as parsing JSON or
 writing tests.
 
 We'd recommend you use whatever language you feel strongest in. It doesn't have
-to be one we use (mostly Go and JavaScript) — we believe good engineers can be 
+to be one we use (mostly Go and JavaScript) — we believe good engineers can be
 productive in any language.
 
 Here are the questions, good luck!
@@ -66,7 +66,7 @@ Here are the questions, good luck!
    but have different IDs).
 
 The output of the program should list the IDs of each invalid or duplicate
-record, one per line. In the case of duplicates, mark both.
+record, one per line. In the case of duplicates, mark all duplicate IDs.
 
 Example:
 
