@@ -78,3 +78,7 @@ bac34
 ```
 
 If you have any questions about the coding questions, please let us know.
+
+Assuming:
+- name, address, zip all need to be the same in 1 record for it to be a duplicate
+- IDs are always valid and present (nothing explicitly states otherwise so no validation done on that field)

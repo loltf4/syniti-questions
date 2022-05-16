@@ -15,6 +15,11 @@ func Test_validate(t *testing.T) {
 	}
 	cases := []testCase{
 		{
+			name: "Should print nothing when no data is recieved",
+			inputData: []Data{},
+			expectedOutput: []string(nil),
+		},
+		{
 			name: "Should print nothing when all data is valid",
 			inputData: []Data{{Name: "abc", Address: "def", Zip: "12345", ID: "abc123"}},
 			expectedOutput: []string(nil),

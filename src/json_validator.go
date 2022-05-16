@@ -48,7 +48,10 @@ func main() {
 
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 	var data []Data
-	json.Unmarshal(byteValue, &data)
+	err = json.Unmarshal(byteValue, &data)
+	if err != nil {
+		fmt.Println(err)
+	}
 	invalidIDs := validate(data)
 	for _, id := range invalidIDs {
 		fmt.Println(id)
