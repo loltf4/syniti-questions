@@ -39,15 +39,36 @@ Here are the questions, good luck!
    you’ve worked on professionally. Just a short paragraph is fine, but I’d
    love to know why you’re proud of it.
 
+- I don't think I have any singularly defined proudest moment in my life.  If
+ I did, I don't think it would be associated with work… while I take pride in
+ my work and enjoy my accomplishments I live a life outside of work and try not
+ to let it define me as a person. I've ran many marathons and placed first sheet,
+ I moved across the world on a whim and flourished, etc. I have many achievements
+ but none bring me noticeably more pride than any other.
+
 2. What's a personal project you're currently working on? This could be a
    coding side project, hobby, or otherwise real world project you're working
    on.
 
+- I’m actively trying to get back into good marathon shape.
+
 3. Tell us about a technical book or article you read recently, why you liked
    it, and why we should read it.
 
+- 2021 State of DevOps Report. These reports (2014-2021) detail the importance of
+ a well built SRE culture and infrastructure at a corporation to allow for the most
+ optimal build environment for development. They use studies and data to define 
+ best working practices to bolster an optimal development system through empirical
+ data. The information presented can help to shape an optimal setup for any software
+ company.
+
 4. Tell us about one of your favorite products (physical or software) and one
    specific aspect that makes it truly great.
+
+- I have an ember mug... I enjoy tea and coffee and it maintains a static temperature
+ for extended periods of time.  It's a complete luxury item however the one I use
+ and appreciate the most on a day to day timeframe. I can forget my tea for an hour
+ and come back to it and still have it be piping hot and ready to consume.
 
 5. In this repo is a `data.json` file. It contains an imaginary example set
    of data a customer might need to migrate from one system to another. It's a
@@ -80,5 +101,10 @@ bac34
 If you have any questions about the coding questions, please let us know.
 
 Assuming:
-- name, address, zip all need to be the same in 1 record for it to be a duplicate
-- IDs are always valid and present (nothing explicitly states otherwise so no validation done on that field)
+- name, address, zip all need to be the same in any singular record for 
+it to be a duplicate of another with the same data (ID excluded)
+- IDs are always valid and present (nothing explicitly states otherwise
+ so no validation done on that field)
+- Unexpected errors resulting from bad file load or JSON unmarshalling,
+ etc. will also populate the console as an expected error handling measure
+ (though not explicitly instructed)
