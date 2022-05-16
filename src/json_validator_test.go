@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_validate(t *testing.T) {
+func Test_validateData(t *testing.T) {
 	type testCase struct {
 		name string
 		inputData []Data
@@ -52,7 +52,7 @@ func Test_validate(t *testing.T) {
 	}
 	for _, c := range cases {
 		t.Run(c.name, func(t *testing.T) {
-			out := validate(c.inputData)
+			out := validateData(c.inputData)
 
 			assert.Equal(t, c.expectedOutput, out)
 		})

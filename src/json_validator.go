@@ -52,13 +52,13 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	invalidIDs := validate(data)
+	invalidIDs := validateData(data)
 	for _, id := range invalidIDs {
 		fmt.Println(id)
 	}
 }
 
-func validate(data []Data) []string {
+func validateData(data []Data) []string {
 	var invalidIDs []string
 	dupes := map[info][]string{}
 	for _, d := range data {
